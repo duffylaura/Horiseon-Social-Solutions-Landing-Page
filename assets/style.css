@@ -4,6 +4,13 @@
     width: 100%;
     padding: 0px;   
 }
+
+.flex-container {
+    display: flex;
+    background-color: #d9dcd6;
+
+}
+
 /* Used "header" and "nav" semantics; formatted better; inserted RWD */
 header {
     display: flex;
@@ -36,10 +43,6 @@ a{
     color: #ffffff;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 .Meeting-Photo {
     display: flex;
     justify-content: flex-start;
@@ -47,14 +50,20 @@ body {
     margin-bottom: 25px;
 }
 
+.article-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
 article {
     display: flex;
-    margin-bottom: 20px;
-    padding: 50px;
+    align-content: left;
+    margin: 20px;
     height: 300px;
     width: 75%;
-    margin-left: 25px;
-    
+    padding: 50px;
+    border: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -62,21 +71,19 @@ article {
 
 article img{
     display: flex;
-    height: 200px;
-    width: 300px;
+    height: 100%;
+    width: 75%;
     padding: 10px;
 }
 
-
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
-    padding: 20px;
+   display: flex; 
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 20%;
+    height: 100%;
+    background: #2589bd;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-
 }
 
 footer {
@@ -88,4 +95,16 @@ footer {
 
 footer > h2 {
     font-size: 20px;
+}
+
+
+/*
+ display: flex;
+    justify-content: right;
+    background: #2589bd;
+    max-width: 20em;
+    height: 50em;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
