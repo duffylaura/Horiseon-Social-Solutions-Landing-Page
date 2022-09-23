@@ -2,7 +2,7 @@
 
 ## Description
 
-The coder was hired by a marketing agency, Horiseon Social Solutions Services, to refactor and exisiting site to make it more accessible. This helped solved their problem of ensuring that their website is accessible by all. Web accessibility is essential both for providing access to those with disabilities as well as for protecting the company from potential litigation. Accessible sites also have better SEO. 
+The coder was hired by a marketing agency, Horiseon Social Solutions Services, to refactor an exisiting site to make it more accessible. This helped solved their problem of ensuring that their website is accessible by all. Web accessibility is essential both for providing access to those with disabilities as well as for protecting the company from potential litigation. Accessible sites also have better SEO. 
 
 The coder made the following changes to the project: 
 - Restructured the HTML code by segementing it into appropriate semantic elements. 
