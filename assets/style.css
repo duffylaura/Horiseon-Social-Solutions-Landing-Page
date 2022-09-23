@@ -8,7 +8,6 @@
 .flex-container {
     display: flex;
     background-color: #d9dcd6;
-
 }
 
 /* Used "header" and "nav" semantics; formatted better; inserted RWD */
@@ -47,18 +46,18 @@ a{
     display: flex;
     justify-content: flex-start;
     width:100%;
-    margin-bottom: 25px;
 }
 
 .article-container{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    align-items: stretch;
+    justify-content: center;
 }
 
 article {
     display: flex;
-    align-content: left;
+    align-items: stretch;
     margin: 20px;
     height: 300px;
     width: 75%;
@@ -73,12 +72,13 @@ article img{
     display: flex;
     height: 100%;
     width: 75%;
-    padding: 10px;
+    margin: 20px;
 }
 
 aside {
    display: flex; 
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 100px;
     width: 20%;
     height: 100%;
@@ -95,16 +95,4 @@ footer {
 
 footer > h2 {
     font-size: 20px;
-}
-
-
-/*
- display: flex;
-    justify-content: right;
-    background: #2589bd;
-    max-width: 20em;
-    height: 50em;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
